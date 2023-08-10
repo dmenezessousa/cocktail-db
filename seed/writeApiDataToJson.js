@@ -5,7 +5,7 @@ const apiDrinksUrl = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
 
 const apiDrinkIngredientsUrlList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
 const apiDrinkIngredientImgUrl = [{
-  LightRum: "https://www.thecocktaildb.com/images/ingredients/Light rum-Small.png",
+  LightRum: "https://www.thecocktaildb.com/images/ingredients/${drfirstingriinks.}-Small.png",
   AppleJack: "https://www.thecocktaildb.com/images/ingredients/Applejack-Small.png",
   Gin: "https://www.thecocktaildb.com/images/ingredients/Gin-Small.png",
   DarkRum: "https://www.thecocktaildb.com/images/ingredients/Dark rum-Small.png",
