@@ -8,7 +8,7 @@ const UserSchema = new Schema({
   email: { type: String, required: true },
   password: { type: String, required: true },
   dateOfBirth: { type: Date, required: true },
-  favoriteCocktails: [{ type: Schema.Types.ObjectId, ref: "FavoriteCocktail" }]
+  favoriteCocktails: [{ type: Schema.Types.ObjectId, ref: "favoriteCocktail" }]
 }, { timestamps: true });
 
 export default mongoose.model("users", UserSchema);
