@@ -28,7 +28,6 @@ const CocktailSchema = new Schema({
   drinkMeasure8: String,
   drinkMeasure9: String,
   drinkMeasure10: String,
-
 }, { timestamps: true });
 
 export default mongoose.model("cocktails", CocktailSchema);

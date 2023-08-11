@@ -10,4 +10,4 @@ const FavoriteCocktailSchema = new Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("cocktails", FavoriteCocktailSchema);
+export default mongoose.model("FavoriteCocktails", FavoriteCocktailSchema);
