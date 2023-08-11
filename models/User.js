@@ -7,7 +7,7 @@ const UserSchema = new Schema({
   username: { type: String, required: true, unique: true },
   email: { type: String, required: true },
   password_digest: { type: String, required: true },
-  favoriteCocktails: [{ type: Schema.Types.ObjectId, ref: "FavoriteCocktails" }]
+  favoriteCocktails: [{ type: Schema.Types.ObjectId, ref: "favoriteCocktails" }]
 }, { timestamps: true });
 
 export default mongoose.model("users", UserSchema);
