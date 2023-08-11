@@ -1,4 +1,5 @@
 import Drinks from '../models/cocktailSeed.js';
+
 import FavoriteCocktail from "../models/favoriteCocktail.js"
 import User from "../models/user.js"
 
