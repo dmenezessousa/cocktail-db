@@ -1,7 +1,7 @@
-import Drinks from '../models/cocktailSeed.js';
+import Drinks from '../models/CocktailSeed.js';
 
-import FavoriteCocktail from "../models/favoriteCocktail.js"
-import User from "../models/user.js"
+import FavoriteCocktail from "../models/FavoriteCocktail.js"
+import User from "../models/User.js"
 
 export const getDrinks = async (req, res) => {
   try {
